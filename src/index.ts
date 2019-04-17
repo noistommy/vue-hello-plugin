@@ -17,6 +17,7 @@ export default plugin
 
 interface Window {
   Vue: any
+  
 }
 
 if (typeof window !== 'undefined' && (<any>window).Vue) {
